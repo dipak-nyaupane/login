@@ -121,7 +121,7 @@ if (isset($_POST["submit"])) {
             <h3>Add product</h3>
             </a>
 
-            <a href="#">
+            <a href="logout.php">
             <span class="material-symbols-sharp">logout</span>
             <h3>Log Out</h3>
             </a>
@@ -233,7 +233,7 @@ if (isset($_POST["submit"])) {
     //     while ($ROW = mysqli_fetch_assoc($rsREPORT)) { 
     //     $i = $i + 1; 
 
-    // $EMPLOYEE_NAME = $ROW['edesc'];
+    // $EMPLOYEE_NAME = $ROW[''];
     // $GENDER=$ROW['gender_code'];
     // $JOIN_DATE=$ROW['join_date'];
     // $DESIGNATION_CODE = $ROW['ed_designation_code1'];
